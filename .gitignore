@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+!frontend/src/lib/
+*.db
+.stryker-tmp/
+reports/
+playwright-report/
+test-results/

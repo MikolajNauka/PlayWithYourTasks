@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "testRunner": "vitest",
+  "mutate": [
+    "src/components/GamificationBar.tsx",
+    "src/components/TaskCard.tsx"
+  ],
+  "reporters": ["progress", "clear-text", "html"],
+  "htmlReporter": {
+    "fileName": "reports/mutation/mutation.html"
+  },
+  "concurrency": 2
+}
